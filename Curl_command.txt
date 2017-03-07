@@ -1,0 +1,1 @@
+curl -H "Content-Type:application/json" -X PUT -d '{"tap-spec": {"tap":[ {"id":"1", "node":"openflow:1", "traffic-match":"HTTP", "src-node-connector":["opnflow:1:1"], "traffic-match":"HTTP", "sink-node-connector":["opnflow:1:2"] } ] } }' http://localhost:8181/restconf/config/tap:tap-spec
